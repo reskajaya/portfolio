@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ade Kurniawan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="path/to/script.js"></script>
+    <style></style>
+</head>
+<body>
+    <div class="container-main">
+        <!-- Sisi Kiri: Profil -->
+        <div class="profile-section">
+            <img src="asset/profile-image.jpg" alt="Profile" class="profile-img">
+            <h2>Ade Kurniawan</h2>
+            <p>Freelancer | Web Designer | Data Entry Specialist</p>
+            <nav>
+                <a class="nav-link" href="#about">About Me</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+            <!-- Link Media Sosial -->
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <footer>
+                <div>&copy; Copyright Portfolio 2024 All rights reserved</div>
+                <div>Design by Ade Kurniawan.</div>
+            </footer>
+        </div>
+        <!-- Sisi Kanan: Konten Utama -->
+        <div class="content-section">
+            <img src="asset/Main-image.jpg" alt="Hero Image" class="hero-image">
+            
+            <div id="about" class="container about-section">
+                <h1>About Me</h1>
+                <p>Hello, my name is <strong>Ade Kurniawan</strong>, and I am a passionate freelancer with a focus on <strong>Web Design</strong>, <strong>Data Entry</strong>, and <strong>Control Systems</strong>. With a background in the hospitality industry, I bring both creativity and precision to my work. I have worked with various clients to create modern, user-friendly websites and efficient data management systems.</p>
+                <hr>
+                <h2>Resume</h2>
+                <!-- Section Info Bersampingan (Education, Work Experience, Hobbies) -->
+                <div class="info-section">
+                    <!-- Education -->
+                    <div class="info-item">
+                        <h4><strong>Education</strong></h4>
+                        <ul>
+                            <li><span>Degree:</span> High School (SMA)</li>
+                            <li><span>Certifications:</span> Web Design, UI/UX Design</li>
+                            <li><span>Additional Learning:</span> Online Web Design & Data Analysis Courses</li>
+                        </ul>
+                    </div>
+
+                    <!-- Work Experience -->
+                    <div class="info-item">
+                        <h4><strong>Work Experience</strong></h4>
+                        <ul>
+                            <li><span>Role:</span> Manager, Hospitality Industry</li>
+                            <li><span>Key Skills:</span> Team Leadership, Project Management</li>
+                            <li><span>Specialty:</span> Data Systems and Web Design for internal use</li>
+                        </ul>
+                    </div>
+
+                    <!-- Hobbies -->
+                    <div class="info-item">
+                        <h4><strong>Hobbies</strong></h4>
+                        <ul>
+                            <li><span>Technology:</span> Exploring new tools and trends</li>
+                            <li><span>Outdoor Activities:</span> Hiking, Traveling</li>
+                            <li><span>Creative Work:</span> Photography and Designing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills">
+                <h1>Skills</h1>
+                <div class="skills-list">
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Design</h3>
+                        <p>Create visually stunning and responsive websites that deliver a seamless user experience.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-keyboard"></i>
+                        <h3>Data Entry</h3>
+                        <p>Efficient and accurate data management and entry using the latest tools and techniques.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Team Management</h3>
+                        <p>Leadership experience in managing teams to achieve business objectives and deliver results.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="portfolio" class="container">
+                <h1>Portfolio</h1>
+                <p>Here are some of the projects I’ve worked on:</p>
+                
+                <!-- Navs for categories -->
+                <ul class="nav nav-tabs" id="portfolioTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="web-design-tab" data-bs-toggle="tab" href="#web-design" role="tab" aria-controls="web-design" aria-selected="true">Web Design</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="photography-tab" data-bs-toggle="tab" href="#photography" role="tab" aria-controls="photography" aria-selected="false">Photography</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="branding-tab" data-bs-toggle="tab" href="#branding" role="tab" aria-controls="branding" aria-selected="false">Branding</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="certificated-tab" data-bs-toggle="tab" href="#certificated" role="tab" aria-controls="certificated" aria-selected="false">Certificated</a>
+                    </li>
+                </ul>
+                
+                <!-- Tab Content -->
+                <div class="tab-content" id="portfolioTabContent">
+                    <!-- Web Design -->
+                    <div class="tab-pane fade show active" id="web-design" role="tabpanel" aria-labelledby="web-design-tab">
+                        <div class="portfolio-item">
+                            <div class="portfolio-card">
+                                <img src="asset/web-deisgn-2.jpg" alt="Web Design 1" class="portfolio-img">
+                                <h3>Website Project 1</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/web-design.jpg" alt="Web Design 2" class="portfolio-img">
+                                <h3>Website Project 2</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/web-deisgn-3.jpg" alt="Web Design 2" class="portfolio-img">
+                                <h3>Website Project 3</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/web-design-4.jpg" alt="Web Design 2" class="portfolio-img">
+                                <h3>Website Project 4</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Photography -->
+                    <div class="tab-pane fade" id="photography" role="tabpanel" aria-labelledby="photography-tab">
+                        <div class="portfolio-item">
+                            <div class="portfolio-card">
+                                <img src="asset/westrn-food.jpg" alt="Photography 1" class="portfolio-img">
+                                <h3>Photography Project 1</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/photography-2.jpg" alt="Photography 2" class="portfolio-img">
+                                <h3>Photography Project 2</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/photografy-2.jpg" alt="Photography 2" class="portfolio-img">
+                                <h3>Photography Project 3</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/photography-4.jpg" alt="Photography 2" class="portfolio-img">
+                                <h3>Photography Project 4</h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Branding -->
+                    <div class="tab-pane fade" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+                        <div class="portfolio-item">
+                            <div class="portfolio-card">
+                                <img src="asset/branding-3.jpg" alt="Branding 1" class="portfolio-img">
+                                <h3>Branding Project 1</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/branding-2.jpg" alt="Branding 2" class="portfolio-img">
+                                <h3>Branding Project 2</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/branding-1.jpg" alt="Branding 2" class="portfolio-img">
+                                <h3>Branding Project 3</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/branding-4.jpg" alt="Branding 2" class="portfolio-img">
+                                <h3>Branding Project 4</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Certificated -->
+                    <div class="tab-pane fade" id="certificated" role="tabpanel" aria-labelledby="certificated-tab">
+                        <div class="portfolio-item">
+                            <div class="portfolio-card">
+                                <img src="asset/Certificate-blog.png" alt="certificated 1" class="portfolio-img">
+                                <h3>Certifacate Web Blog</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/Certicate-wordpress.png" alt="certificated 2" class="portfolio-img">
+                                <h3>Certificate Web devloper</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/Certificate-UI-UX.png" alt="certificated 3" class="portfolio-img">
+                                <h3>Certificate UI UX</h3>
+                            </div>
+                            <div class="portfolio-card">
+                                <img src="asset/Certificate-landingpage.png" alt="certificated 2" class="portfolio-img">
+                                <h3>Certifacate Landing Page</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                     
+            <div id="testimonials" class="container testimonial-section">
+                <h1>What Clients Say</h1>
+                <div class="testimonial-cards">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="asset/Annie-Weger.png" alt="Client 1">
+                        </div>
+                        <p class="testimonial-text">"Ade's work is incredible! He designed our website with great attention to detail, and the final product exceeded our expectations. Highly recommend!"</p>
+                        <h4>-Anni Wedger, CEO </h4>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="asset/Caroline.png" alt="Client 2">
+                        </div>
+                        <p class="testimonial-text">"I worked with Ade on a data entry project. He was efficient, reliable, and a true professional. His attention to detail is unmatched."</p>
+                        <h4>- Caroline, Project Manager</h4>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="asset/business-women.jpg" alt="Client 3">
+                        </div>
+                        <p class="testimonial-text">"Amazing designer with a great eye for aesthetics! The website he built for us is both beautiful and functional."</p>
+                        <h4>- Jessica, Founder of Startup Co.</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="contact" class="container">
+                <h1 class="text-center mb-4">Contact Us</h1>
+                
+                <!-- Gambar Peta dari Google Maps Embed -->
+                <div class="map-container mb-4">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.121438346984!2d144.9537353153163!3d-37.817209279751244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d472af2c77f%3A0x506e6c5c722a74b5!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1623963565514!5m2!1sen!2sus" 
+                        width="100" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        aria-hidden="false" 
+                        tabindex="0">
+                    </iframe>
+                </div>
+            
+                <!-- Keterangan Alamat dan Kontak -->
+                <div class="contact-info">
+                    <div class="info-item mb-3">
+                        <h4><strong>Our Address</strong></h4>
+                        <p>Jl.Mewira No.05 Kp Jati Parung 16630 Jawa Barat</p>
+                        <p>Parung Bogor </p>
+                    </div>
+                    <div class="info-item mb-3">
+                        <h4><strong>Website</strong></h4>
+                        <p><a href="https://reskajaya.my.id/" target="_blank">reskajaya.my.id</a></p>
+                    </div>
+                    <div class="info-item mb-3">
+                        <h4><strong>Email</strong></h4>
+                        <p><a href="mailto:reskajaya34@gmail.com">reskajaya34@gmail.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4><strong>Phone</strong></h4>
+                        <p><a href="https://wa.me/628510453311">0852-1045-3311</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            
+                <div class="contact-form">
+                    <!-- Form Kontak -->
+                    <div class="col-md-12">
+                        <h3>Contact Form</h3>
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
